@@ -10,16 +10,16 @@ import { getLabels, locales, defaultLocale, prefixDefaultLocale } from '@i18n/ut
 export { getStaticPaths } from '@i18n/utils';
 
 const base = import.meta.env.BASE_URL;
-const currentPath = Astro.url.pathname;
 const labels = getLabels(Astro.currentLocale, 'home');
+const currentLocale = Astro.currentLocale || defaultLocale;
 ---
 
 <Layout description={labels.description} title={labels.title}>
-  <script slot="head" is:inline define:vars={{ base, currentPath, locales, defaultLocale, prefixDefaultLocale }}>
-    if (currentPath === base + '/') {
+  <script slot="head" is:inline define:vars={{ base, currentLocale, locales, defaultLocale, prefixDefaultLocale }}>
+    if (currentLocale === defaultLocale && !prefixDefaultLocale) {
       const preferred = localStorage.getItem('language') || navigator.language.split('-')[0];
       const lang = preferred && locales.includes(preferred) ? preferred : defaultLocale;
-      (lang !== defaultLocale || prefixDefaultLocale) && location.replace(base + '/' + lang + '/');
+      lang !== currentLocale && location.replace(base + '/' + lang + '/');
     }
   </script>
   <Hero />
