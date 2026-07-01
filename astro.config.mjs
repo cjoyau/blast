@@ -62,6 +62,7 @@ export default defineConfig({
         resources: ["'self'", 'data:', 'https://challenges.cloudflare.com/'],
         hashes: [
           'sha256-QdsQr8DYqqAbXiHb2YTZ0RKtdorAfl82xF9ul9WqSOE=', // All pages
+          'sha256-wXiZn4o8arGWMd4cs1l9VEsNNHx4JWn/vzB8pa3dXRA=', // index
         ],
       },
       styleDirective: {
