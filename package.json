@@ -18,17 +18,17 @@
     "@astrojs/alpinejs": "1.0.0",
     "@astrojs/sitemap": "3.7.3",
     "@playform/compress": "0.2.3",
-    "@tailwindcss/vite": "4.3.1",
+    "@tailwindcss/vite": "4.3.2",
     "alpinejs": "3.15.12",
-    "astro": "7.0.3",
-    "tailwindcss": "4.3.1"
+    "astro": "7.0.6",
+    "tailwindcss": "4.3.2"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.9",
     "@types/alpinejs": "3.13.11",
     "@types/alpinejs__collapse": "3.13.4",
     "@vitest/coverage-v8": "4.1.9",
-    "prettier": "3.8.5",
+    "prettier": "3.9.1",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.8.0",
     "vitest": "4.1.9"
