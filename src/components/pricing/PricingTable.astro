@@ -16,14 +16,11 @@ const gridCols: Record<number, string> = { 1: 'lg:grid-cols-1', 2: 'lg:grid-cols
 
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-    <div class={`-mt-8 grid items-stretch gap-8 lg:mt-0 ${gridCols[Math.min(pricings.length, 3)]}`}>
+    <div class={`-mt-8 grid place-items-center items-stretch gap-8 lg:mt-0 ${gridCols[Math.min(pricings.length, 3)]}`}>
       {
         pricings.map((pricing) => (
           <div
-            class:list={[
-              'relative flex h-full w-full max-w-sm flex-col gap-8 rounded-3xl p-8',
-              pricing.isFlagged && 'bg-surface',
-            ]}
+            class:list={['relative flex max-w-sm flex-col gap-8 rounded-3xl p-8', pricing.isFlagged && 'bg-surface']}
           >
             <div class="flex-1">
               <h2 class="text-xl font-medium">{pricing.name}</h2>
