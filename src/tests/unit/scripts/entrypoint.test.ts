@@ -197,7 +197,7 @@ describe('entrypoint', () => {
       const langStoreCall = mockAlpine.store.mock.calls.find((call: any) => call[0] === 'language');
       const langStore = langStoreCall?.[1];
 
-      globalThis.location.pathname = `${base}/fr/about/`;
+      globalThis.location.pathname = `${base}fr/about/`;
 
       langStore.init();
       expect(langStore.lang).toBe('fr');
@@ -209,7 +209,7 @@ describe('entrypoint', () => {
       const langStoreCall = mockAlpine.store.mock.calls.find((call: any) => call[0] === 'language');
       const langStore = langStoreCall?.[1];
 
-      globalThis.location.pathname = `${base}/es/about/`;
+      globalThis.location.pathname = `${base}es/about/`;
 
       langStore.init();
       expect(langStore.lang).toBe('en');
@@ -221,7 +221,7 @@ describe('entrypoint', () => {
       const langStoreCall = mockAlpine.store.mock.calls.find((call: any) => call[0] === 'language');
       const langStore = langStoreCall?.[1];
 
-      globalThis.location.pathname = `${base}/`;
+      globalThis.location.pathname = `${base}`;
 
       langStore.init();
       expect(langStore.lang).toBe('en');

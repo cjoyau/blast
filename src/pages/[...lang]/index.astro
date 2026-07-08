@@ -19,7 +19,7 @@ const currentLocale = Astro.currentLocale || defaultLocale;
     if (currentLocale === defaultLocale && !prefixDefaultLocale) {
       const preferred = localStorage.getItem('language') || navigator.language.split('-')[0];
       const lang = preferred && locales.includes(preferred) ? preferred : defaultLocale;
-      lang !== currentLocale && location.replace(base + '/' + lang + '/');
+      lang !== currentLocale && location.replace(base + lang + '/');
     }
   </script>
   <Hero />

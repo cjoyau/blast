@@ -69,7 +69,7 @@ const entrypoint = (Alpine: Alpine) => {
     lang: defaultLocale,
 
     init() {
-      const pathLocale = globalThis.location.pathname.replace(base, '').split('/')[1];
+      const pathLocale = globalThis.location.pathname.replace(base, '/').split('/')[1];
       this.lang = pathLocale && locales.includes(pathLocale) ? pathLocale : defaultLocale;
     },
 

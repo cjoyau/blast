@@ -25,5 +25,5 @@ export function getLabels<K extends keyof Translation>(currentLocale: string | u
 }
 
 export function getRelativePath(pathname: string, locale: string): string {
-  return pathname.replace(base, '').replace(new RegExp(`^/${locale}(/|$)`), '/');
+  return pathname.replace(base, '/').replace(new RegExp(`^/${locale}(/|$)`), '/');
 }

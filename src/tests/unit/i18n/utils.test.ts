@@ -93,23 +93,23 @@ describe('i18n utils', () => {
 
   describe('getRelativePath', () => {
     it('removes the locale prefix correctly from pathnames', () => {
-      expect(getRelativePath(`${base}/en/about`, 'en')).toBe('/about');
-      expect(getRelativePath(`${base}/fr/contact`, 'fr')).toBe('/contact');
-      expect(getRelativePath(`${base}/en/`, 'en')).toBe('/');
-      expect(getRelativePath(`${base}/en`, 'en')).toBe('/');
-      expect(getRelativePath(`${base}/fr`, 'fr')).toBe('/');
-      expect(getRelativePath(`${base}/`, 'en')).toBe('/');
+      expect(getRelativePath(`${base}en/about`, 'en')).toBe('/about');
+      expect(getRelativePath(`${base}fr/contact`, 'fr')).toBe('/contact');
+      expect(getRelativePath(`${base}en/`, 'en')).toBe('/');
+      expect(getRelativePath(`${base}en`, 'en')).toBe('/');
+      expect(getRelativePath(`${base}fr`, 'fr')).toBe('/');
+      expect(getRelativePath(`${base}`, 'en')).toBe('/');
       expect(getRelativePath('', 'en')).toBe('');
     });
 
     it('does not remove the locale if it is part of a larger path segment', () => {
-      expect(getRelativePath(`${base}/enrollment`, 'en')).toBe('/enrollment');
-      expect(getRelativePath(`${base}/french-fries`, 'fr')).toBe('/french-fries');
-      expect(getRelativePath(`${base}/fr-ch`, 'fr')).toBe('/fr-ch');
+      expect(getRelativePath(`${base}enrollment`, 'en')).toBe('/enrollment');
+      expect(getRelativePath(`${base}french-fries`, 'fr')).toBe('/french-fries');
+      expect(getRelativePath(`${base}fr-ch`, 'fr')).toBe('/fr-ch');
     });
 
     it('returns the path unmodified if the locale is not at the start', () => {
-      expect(getRelativePath(`${base}/about/en`, 'en')).toBe('/about/en');
+      expect(getRelativePath(`${base}about/en`, 'en')).toBe('/about/en');
     });
   });
 });

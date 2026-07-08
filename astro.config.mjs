@@ -8,7 +8,7 @@ import { defaultLocale, locales, prefixDefaultLocale } from './src/i18n/utils';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://cjoyau.github.io',
-  base: '/blast',
+  base: '/blast/',
 
   fonts: [
     {
