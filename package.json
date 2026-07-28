@@ -28,7 +28,7 @@
     "@types/alpinejs": "3.13.11",
     "@types/alpinejs__collapse": "3.13.4",
     "@vitest/coverage-v8": "4.1.10",
-    "prettier": "3.9.5",
+    "prettier": "3.9.6",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.8.1",
     "vitest": "4.1.10"
