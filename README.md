@@ -1,4 +1,4 @@
-# Blast · Blue astro theme
+# <img src="public/logo.svg" width="40" height="40" align="center" /> Blast · Blue astro theme
 
 Production-ready theme specially designed for Business, Marketing, SaaS and Startup websites.
 
