@@ -43,31 +43,20 @@ TURNSTILE_SITEKEY=<your-sitekey> ②
 1. Your Basin Form ID. You can find it in your [Basin dashboard](https://usebasin.com/?via=cjoyau).
 2. Your Cloudflare Turnstile Site Key. You can find it in your Cloudflare dashboard.
 
-### Install dependencies
+### Commands
 
-Navigate to your project folder and install its dependencies:
+All commands are run from the root of the project, from a terminal:
 
-```
-npm install
-```
-
-### Start
-
-Once the installation is done, you can now run your app:
-
-```
-npm run dev
-```
-
-This runs the app in development mode. Open http://localhost:4321 to view it in the browser.
-
-### Build
-
-```
-npm run build
-```
-
-This builds the app for production to the `./dist/` folder.
+| Command                   | Action                                            |
+|:--------------------------|:--------------------------------------------------|
+| `npm install`             | Installs dependencies                             |
+| `npm run dev`             | Starts local dev server at `localhost:4321`       |
+| `npm run build`           | Check and build your production site to `./dist/` |
+| `npm run preview`         | Preview your build locally, before deploying      |
+| `npm run test`            | Starts Vitest unit tests                          |
+| `npm run test:coverage`   | Run Vitest unit tests with v8 code coverage       |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check`  |
+| `npm run astro -- --help` | Get help using the Astro CLI                      |
 
 ## Project Structure
 
