@@ -2,6 +2,13 @@
 
 Production-ready theme specially designed for Business, Marketing, SaaS and Startup websites.
 
+[![Build status](https://img.shields.io/github/actions/workflow/status/cjoyau/blast/deploy.yml)](https://github.com/cjoyau/blast/actions/workflows/deploy.yml)
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=cjoyau_blast&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=cjoyau_blast)
+[![License](https://img.shields.io/github/license/cjoyau/blast)](./LICENSE)
+[![Astro](https://img.shields.io/badge/Astro-7-BC52EE?logo=astro&logoColor=white)](https://astro.build)
+[![Tailwind](https://img.shields.io/badge/Tailwind-4.x-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Node](https://img.shields.io/badge/Node-22.12%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
+
 ## Key Features
 
 * **Built with Astro 7, Tailwind CSS v4 &amp; Alpine.js**
