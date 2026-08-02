@@ -65,13 +65,13 @@ describe('entrypoint', () => {
       const getAccordionData = dataCall?.[1];
       const accordion = getAccordionData();
 
-      expect(accordion.selected).toBe(null);
+      expect(accordion.selected).toBeNull();
 
       accordion.toggle(1);
       expect(accordion.selected).toBe(1);
 
       accordion.toggle(1);
-      expect(accordion.selected).toBe(null);
+      expect(accordion.selected).toBeNull();
 
       accordion.toggle(2);
       expect(accordion.selected).toBe(2);
