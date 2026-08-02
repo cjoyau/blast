@@ -1,4 +1,4 @@
-# <img src="public/logo.svg" width="40" height="40" align="center" /> Blast · Blue astro theme
+# Blast · Blue astro theme
 
 Production-ready theme specially designed for Business, Marketing, SaaS and Startup websites.
 
@@ -9,7 +9,7 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 [![Tailwind](https://img.shields.io/badge/Tailwind-4.x-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Node](https://img.shields.io/badge/Node-22.12%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 
-## Key Features
+## <img src="public/logo.svg" width="24" height="24" align="center" /> Key Features
 
 * **Built with Astro 7, Tailwind CSS v4 &amp; Alpine.js**
 * **7+ Pages**
@@ -31,7 +31,7 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 * **Basin** Contact Form
 * **Turnstile** Spam Protection
 
-## Getting Started
+## <img src="public/logo.svg" width="24" height="24" align="center" /> Getting Started
 
 ### Requirements
 
@@ -65,7 +65,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check`  |
 | `npm run astro -- --help` | Get help using the Astro CLI                      |
 
-## Project Structure
+## <img src="public/logo.svg" width="24" height="24" align="center" /> Project Structure
 
 Inside the project, you’ll see the following folders and files:
 
@@ -109,10 +109,10 @@ Inside the project, you’ll see the following folders and files:
 15. TypeScript configuration file.
 16. Vitest configuration file.
 
-## Deployment
+## <img src="public/logo.svg" width="24" height="24" align="center" /> Deployment
 
 Ready to build and deploy your site? Follow the [official documentation](https://docs.astro.build/en/guides/deploy/).
 
-## License
+## <img src="public/logo.svg" width="24" height="24" align="center" /> License
 
 This project is licensed under the terms of the MIT license.
