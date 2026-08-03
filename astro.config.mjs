@@ -3,7 +3,7 @@ import alpinejs from '@astrojs/alpinejs';
 import sitemap from '@astrojs/sitemap';
 import compress from '@playform/compress';
 import tailwindcss from '@tailwindcss/vite';
-import { defaultLocale, locales, prefixDefaultLocale } from './src/i18n/utils';
+import { defaultLocale, locales, prefixDefaultLocale } from '@i18n/utils';
 
 // https://astro.build/config
 export default defineConfig({
