@@ -59,7 +59,7 @@ export default defineConfig({
   security: {
     csp: {
       scriptDirective: {
-        resources: ["'self'", 'data:', 'https://challenges.cloudflare.com/'],
+        resources: ["'self'", 'https://challenges.cloudflare.com/'],
         hashes: [
           'sha256-QdsQr8DYqqAbXiHb2YTZ0RKtdorAfl82xF9ul9WqSOE=', // All pages
           'sha256-AhGOxzJqJwRvnqrHXGGHOAboYLUDRi5UY2RXZQCouYI=', // index
@@ -73,7 +73,7 @@ export default defineConfig({
       },
       directives: [
         "default-src 'self'",
-        "img-src 'self' data:",
+        "img-src 'self'",
         "font-src 'self'",
         "object-src 'none'",
         "base-uri 'self'",
