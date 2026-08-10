@@ -20,7 +20,7 @@
     "@alpinejs/csp": "3.15.12",
     "@astrojs/alpinejs": "1.0.0",
     "@astrojs/sitemap": "3.7.3",
-    "@playform/compress": "0.2.3",
+    "@playform/compress": "0.2.5",
     "@tailwindcss/vite": "4.3.3",
     "alpinejs": "3.15.12",
     "astro": "7.1.6",
