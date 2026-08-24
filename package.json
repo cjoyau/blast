@@ -23,7 +23,7 @@
     "@playform/compress": "0.2.5",
     "@tailwindcss/vite": "4.3.3",
     "alpinejs": "3.16.1",
-    "astro": "7.2.4",
+    "astro": "7.2.2",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
