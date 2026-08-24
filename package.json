@@ -16,24 +16,24 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@alpinejs/collapse": "3.15.12",
-    "@alpinejs/csp": "3.15.12",
+    "@alpinejs/collapse": "3.16.1",
+    "@alpinejs/csp": "3.16.1",
     "@astrojs/alpinejs": "1.0.0",
     "@astrojs/sitemap": "3.7.3",
     "@playform/compress": "0.2.5",
     "@tailwindcss/vite": "4.3.3",
-    "alpinejs": "3.15.12",
-    "astro": "7.2.0",
+    "alpinejs": "3.16.1",
+    "astro": "7.2.4",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
     "@types/alpinejs": "3.13.11",
     "@types/alpinejs__collapse": "3.13.4",
-    "@vitest/coverage-v8": "4.1.10",
+    "@vitest/coverage-v8": "4.1.11",
     "prettier": "3.9.6",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "vitest": "4.1.10"
+    "vitest": "4.1.11"
   }
 }
