@@ -16,14 +16,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@alpinejs/collapse": "3.16.3",
-    "@alpinejs/csp": "3.16.3",
+    "@alpinejs/collapse": "3.17.0",
+    "@alpinejs/csp": "3.17.0",
     "@astrojs/alpinejs": "1.0.0",
-    "@astrojs/sitemap": "3.7.3",
+    "@astrojs/sitemap": "3.7.4",
     "@playform/compress": "0.2.5",
     "@tailwindcss/vite": "4.3.3",
-    "alpinejs": "3.16.3",
-    "astro": "7.2.9",
+    "alpinejs": "3.17.0",
+    "astro": "7.2.10",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
