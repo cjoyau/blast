@@ -9,7 +9,7 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 [![Tailwind](https://img.shields.io/badge/Tailwind-4.x-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Node](https://img.shields.io/badge/Node-22.12%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 
-## <img src="public/logo.svg" width="24" height="24" align="center" /> Key Features
+## <img src="public/logo.svg" width="24" height="24" align="top" /> Key Features
 
 * **Built with Astro 7, Tailwind CSS v4 &amp; Alpine.js**
 * **7+ Pages**
@@ -31,7 +31,7 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 * **Basin** Contact Form
 * **Turnstile** Spam Protection
 
-## <img src="public/logo.svg" width="24" height="24" align="center" /> Getting Started
+## <img src="public/logo.svg" width="24" height="24" align="top" /> Getting Started
 
 ### Requirements
 
@@ -65,7 +65,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check`  |
 | `npm run astro -- --help` | Get help using the Astro CLI                      |
 
-## <img src="public/logo.svg" width="24" height="24" align="center" /> Project Structure
+## <img src="public/logo.svg" width="24" height="24" align="top" /> Project Structure
 
 Inside the project, you’ll see the following folders and files:
 
@@ -109,10 +109,10 @@ Inside the project, you’ll see the following folders and files:
 15. TypeScript configuration file.
 16. Vitest configuration file.
 
-## <img src="public/logo.svg" width="24" height="24" align="center" /> Deployment
+## <img src="public/logo.svg" width="24" height="24" align="top" /> Deployment
 
 Ready to build and deploy your site? Follow the [official documentation](https://docs.astro.build/en/guides/deploy/).
 
-## <img src="public/logo.svg" width="24" height="24" align="center" /> License
+## <img src="public/logo.svg" width="24" height="24" align="top" /> License
 
 This project is licensed under the terms of the MIT license.
