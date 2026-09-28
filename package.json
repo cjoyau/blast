@@ -32,7 +32,7 @@
     "@types/alpinejs__collapse": "3.13.4",
     "@vitest/coverage-v8": "5.0.0",
     "prettier": "3.9.8",
-    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-astro": "1.0.0",
     "prettier-plugin-tailwindcss": "0.8.1",
     "vitest": "5.0.0"
   }
