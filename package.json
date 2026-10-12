@@ -23,7 +23,7 @@
     "@playform/compress": "0.2.5",
     "@tailwindcss/vite": "4.3.3",
     "alpinejs": "3.17.4",
-    "astro": "7.3.5",
+    "astro": "7.3.8",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "@types/alpinejs__collapse": "3.13.4",
     "@vitest/coverage-v8": "5.0.3",
     "prettier": "3.9.9",
-    "prettier-plugin-astro": "1.0.1",
+    "prettier-plugin-astro": "1.1.0",
     "prettier-plugin-tailwindcss": "0.8.1",
     "vitest": "5.0.3"
   }
