@@ -30,10 +30,10 @@
     "@astrojs/check": "0.9.10",
     "@types/alpinejs": "3.17.0",
     "@types/alpinejs__collapse": "3.13.4",
-    "@vitest/coverage-v8": "5.0.3",
-    "prettier": "3.9.9",
-    "prettier-plugin-astro": "1.1.0",
+    "@vitest/coverage-v8": "5.0.5",
+    "prettier": "3.9.10",
+    "prettier-plugin-astro": "1.1.1",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "vitest": "5.0.3"
+    "vitest": "5.0.5"
   }
 }
