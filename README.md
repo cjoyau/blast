@@ -7,7 +7,7 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 [![License](https://img.shields.io/github/license/cjoyau/blast)](./LICENSE)
 [![Astro](https://img.shields.io/badge/Astro-7-BC52EE?logo=astro&logoColor=white)](https://astro.build)
 [![Tailwind](https://img.shields.io/badge/Tailwind-4.x-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![Node](https://img.shields.io/badge/Node-22.12%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![Node](https://img.shields.io/badge/Node-22.22%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 
 ## <img src="public/logo.svg" width="24" height="24" align="top" /> Key Features
 

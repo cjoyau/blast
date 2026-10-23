@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.22.0"
   },
   "scripts": {
     "dev": "astro dev",
@@ -23,11 +23,11 @@
     "@playform/compress": "0.2.5",
     "@tailwindcss/vite": "4.3.3",
     "alpinejs": "3.17.4",
-    "astro": "7.3.8",
+    "astro": "7.4.0",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.10",
+    "@astrojs/check": "0.9.11",
     "@types/alpinejs": "3.17.0",
     "@types/alpinejs__collapse": "3.13.4",
     "@vitest/coverage-v8": "5.0.5",
