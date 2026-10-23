@@ -22,12 +22,10 @@ const getViewBox = (id: string) => {
 <section class="py-16 sm:py-20">
   <svg class="hidden" aria-hidden="true">
     <defs>
-      {
-        companies.map((company) => {
-          const Icon = icons[`/src/assets/${company.id}.svg`].default;
-          return <Icon id={`icon-${company.id}`} />;
-        })
-      }
+      {companies.map((company) => {
+        const Icon = icons[`/src/assets/${company.id}.svg`].default;
+        return <Icon id={`icon-${company.id}`} />;
+      })}
     </defs>
   </svg>
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -41,25 +39,19 @@ const getViewBox = (id: string) => {
       <div
         class="group flex overflow-hidden mask-[linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]"
       >
-        {
-          [0, 1].map((i) => (
-            <div
-              class="animate-marquee flex min-w-full shrink-0 items-center justify-around gap-8 px-4 group-hover:[animation-play-state:paused]"
-              aria-hidden={i === 1 ? 'true' : undefined}
-            >
-              {companies.map((company) => {
-                return (
-                  <div class="bg-surface flex h-36 w-48 shrink-0 flex-col items-center justify-center gap-4 rounded-3xl p-6 transition-transform hover:scale-105">
-                    <svg class="icon-primary h-12 w-auto max-w-36" viewBox={getViewBox(company.id)} aria-hidden="true">
-                      <use href={`#icon-${company.id}`} />
-                    </svg>
-                    <span class="text-muted text-center text-lg leading-tight">{company.name}</span>
-                  </div>
-                );
-              })}
-            </div>
-          ))
-        }
+        {[0, 1].map((i) => <div
+          class="animate-marquee flex min-w-full shrink-0 items-center justify-around gap-8 px-4 group-hover:[animation-play-state:paused]"
+          aria-hidden={i === 1 ? 'true' : undefined}
+        >
+          {companies.map((company) => <div
+            class="bg-surface flex h-36 w-48 shrink-0 flex-col items-center justify-center gap-4 rounded-3xl p-6 transition-transform hover:scale-105"
+          >
+            <svg class="icon-primary h-12 w-auto max-w-36" viewBox={getViewBox(company.id)} aria-hidden="true">
+              <use href={`#icon-${company.id}`} />
+            </svg>
+            <span class="text-muted text-center text-lg leading-tight">{company.name}</span>
+          </div>)}
+        </div>)}
       </div>
     </div>
   </div>

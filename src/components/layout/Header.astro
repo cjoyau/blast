@@ -101,23 +101,19 @@ const links = [
 
       <!-- Navigation -->
       <nav class="divide-subtle flex flex-col gap-1 divide-y">
-        {
-          links.map((link) => (
-            <a
-              href={link.href}
-              class="group inline-flex py-6 text-3xl font-medium tracking-tight transition focus-visible:outline-hidden sm:py-8 sm:text-4xl"
-              aria-current={Astro.url.pathname === link.href ? 'page' : undefined}
-            >
-              <div class="group-focus-outline flex flex-1 items-center justify-between rounded-3xl">
-                <div class="flex items-center gap-6">
-                  <span class="text-xs">{link.ref}</span>
-                  <span class="group-hover:underline">{link.name}</span>
-                </div>
-                <ArrowRightUpIcon class="icon-primary sm:h-8 sm:w-8" aria-hidden="true" />
-              </div>
-            </a>
-          ))
-        }
+        {links.map((link) => <a
+          href={link.href}
+          class="group inline-flex py-6 text-3xl font-medium tracking-tight transition focus-visible:outline-hidden sm:py-8 sm:text-4xl"
+          aria-current={Astro.url.pathname === link.href ? 'page' : undefined}
+        >
+          <div class="group-focus-outline flex flex-1 items-center justify-between rounded-3xl">
+            <div class="flex items-center gap-6">
+              <span class="text-xs">{link.ref}</span>
+              <span class="group-hover:underline">{link.name}</span>
+            </div>
+            <ArrowRightUpIcon class="icon-primary sm:h-8 sm:w-8" aria-hidden="true" />
+          </div>
+        </a>)}
       </nav>
     </div>
   </div>
