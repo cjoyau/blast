@@ -86,28 +86,22 @@ const bottomLinks = [
 
       <!-- Bottom links -->
       <div class="grid max-w-xl flex-1 grid-cols-1 gap-8 sm:grid-cols-3">
-        {
-          bottomLinks.map((group) => (
-            <div class="flex flex-col gap-4">
-              <p class="text-base font-medium">{group.header}</p>
-              <ul role="list" class="flex flex-col gap-3">
-                {group.links.map((link) => (
-                  <li>
-                    <a
-                      href={link.href}
-                      class="text-link"
-                      target={link.isExternal ? '_blank' : undefined}
-                      rel={link.isExternal ? 'noopener noreferrer' : undefined}
-                    >
-                      {link.name}
-                      {link.isExternal && <ExternalLinkIcon class="h-4 w-4" aria-hidden="true" />}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))
-        }
+        {bottomLinks.map((group) => <div class="flex flex-col gap-4">
+          <p class="text-base font-medium">{group.header}</p>
+          <ul role="list" class="flex flex-col gap-3">
+            {group.links.map((link) => <li>
+              <a
+                href={link.href}
+                class="text-link"
+                target={link.isExternal ? '_blank' : undefined}
+                rel={link.isExternal ? 'noopener noreferrer' : undefined}
+              >
+                {link.name}
+                {link.isExternal && <ExternalLinkIcon class="h-4 w-4" aria-hidden="true" />}
+              </a>
+            </li>)}
+          </ul>
+        </div>)}
       </div>
     </div>
   </div>

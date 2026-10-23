@@ -14,21 +14,15 @@ const values = labels.values;
         <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{labels.title}</h2>
       </div>
       <div class="grid gap-8 lg:grid-cols-2">
-        {
-          values.map((column, index) => (
-            <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
-              {column.map((value) => (
-                <div class="bg-surface flex flex-col gap-12 rounded-3xl px-6 py-8">
-                  <p class="text-sm">{value.ref}</p>
-                  <div class="flex flex-col gap-4">
-                    <h3 class="text-xl font-medium">{value.name}</h3>
-                    <p class="text-muted text-base sm:text-lg">{value.description}</p>
-                  </div>
-                </div>
-              ))}
+        {values.map((column, index) => <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
+          {column.map((value) => <div class="bg-surface flex flex-col gap-12 rounded-3xl px-6 py-8">
+            <p class="text-sm">{value.ref}</p>
+            <div class="flex flex-col gap-4">
+              <h3 class="text-xl font-medium">{value.name}</h3>
+              <p class="text-muted text-base sm:text-lg">{value.description}</p>
             </div>
-          ))
-        }
+          </div>)}
+        </div>)}
       </div>
     </div>
   </div>

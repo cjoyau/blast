@@ -18,23 +18,19 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/team-*.
         <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{labels.title}</h2>
       </div>
       <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {
-          members.map((member, index) => (
-            <li class="border-subtle rounded-3xl border px-6 py-8">
-              <div class="space-y-6">
-                <Image
-                  class="mx-auto h-40 w-40 rounded-full"
-                  src={getGlobImage(images, `/src/assets/team-${index + 1}.webp`)}
-                  alt={member.name}
-                />
-                <div class="text-center">
-                  <h3 class="text-lg font-medium">{member.name}</h3>
-                  <p class="text-muted text-base">{member.job}</p>
-                </div>
-              </div>
-            </li>
-          ))
-        }
+        {members.map((member, index) => <li class="border-subtle rounded-3xl border px-6 py-8">
+          <div class="space-y-6">
+            <Image
+              class="mx-auto h-40 w-40 rounded-full"
+              src={getGlobImage(images, `/src/assets/team-${index + 1}.webp`)}
+              alt={member.name}
+            />
+            <div class="text-center">
+              <h3 class="text-lg font-medium">{member.name}</h3>
+              <p class="text-muted text-base">{member.job}</p>
+            </div>
+          </div>
+        </li>)}
       </ul>
     </div>
   </div>

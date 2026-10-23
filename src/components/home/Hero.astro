@@ -21,19 +21,17 @@ const max = initial + (letters.length - visibleLetters.length) * interval;
           x-init="start()"
         >
           <h1 class="relative text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">
-            {
-              letters.map((letter, index) => {
-                const included = visibleLetters.filter((v) => v < index).length;
-                return (
-                  <span
-                    set:text={letter}
-                    {...(visibleLetters.includes(index)
-                      ? { 'x-ignore': '' }
-                      : { 'x-show': 'i > ' + (initial + (index - included) * interval), 'x-cloak': '' })}
-                  />
-                );
-              })
-            }
+            {letters.map((letter, index) => {
+              const included = visibleLetters.filter((v) => v < index).length;
+              return (
+                <span
+                  set:text={letter}
+                  {...(visibleLetters.includes(index)
+                    ? { 'x-ignore': '' }
+                    : { 'x-show': 'i > ' + (initial + (index - included) * interval), 'x-cloak': '' })}
+                />
+              );
+            })}
             <span class="from-primary-500/0 to-primary-500 block h-1 bg-linear-to-r sm:h-1.5 lg:h-2"></span>
           </h1>
           <p class="text-muted max-w-md text-lg sm:max-w-lg sm:text-xl">{labels.description}</p>

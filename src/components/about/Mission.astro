@@ -28,14 +28,10 @@ const stats = labels.stats;
 
         <!-- Stats -->
         <dl class="grid grid-cols-1 gap-6 sm:grid-cols-1">
-          {
-            stats.map((stat) => (
-              <div class="border-subtle rounded-3xl border p-6">
-                <dt class="text-base">{stat.name}</dt>
-                <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
-              </div>
-            ))
-          }
+          {stats.map((stat) => <div class="border-subtle rounded-3xl border p-6">
+            <dt class="text-base">{stat.name}</dt>
+            <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+          </div>)}
         </dl>
       </div>
     </div>

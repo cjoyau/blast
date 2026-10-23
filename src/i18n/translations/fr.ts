@@ -88,7 +88,7 @@ export const fr: Translation = {
     description: 'Une question ou une idée ? Envoyez-nous un message, nous sommes à votre écoute.',
     responseTime: 'Nous répondons généralement sous 48 heures.',
     policyText: 'En envoyant le formulaire, vous acceptez que vos données soient traitées selon notre ',
-    policyLink: 'politique de confidentialité',
+    policyLink: 'politique de confidentialité.',
     form: {
       name: 'Nom',
       email: 'Email',

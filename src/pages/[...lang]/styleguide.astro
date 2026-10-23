@@ -49,16 +49,12 @@ const colors = [
       <div class="flex flex-col gap-16">
         <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{labels.colorsDesc}</h2>
         <div class="grid grid-cols-2 gap-12 sm:grid-cols-6">
-          {
-            colors.map((color) => (
-              <div class="relative flex">
-                <div class="flex flex-col gap-2">
-                  <div class={`border-subtle h-16 w-16 rounded-md border ${color.value}`} />
-                  <div class="text-sm font-medium">{color.name}</div>
-                </div>
-              </div>
-            ))
-          }
+          {colors.map((color) => <div class="relative flex">
+            <div class="flex flex-col gap-2">
+              <div class={`border-subtle h-16 w-16 rounded-md border ${color.value}`} />
+              <div class="text-sm font-medium">{color.name}</div>
+            </div>
+          </div>)}
         </div>
       </div>
     </div>

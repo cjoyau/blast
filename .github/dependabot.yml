@@ -1,29 +1,29 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "04:00"
+      interval: 'weekly'
+      day: 'monday'
+      time: '04:00'
     labels:
-      - "dependencies"
-      - "github_actions"
+      - 'dependencies'
+      - 'github_actions'
     cooldown:
       default-days: 7
     groups:
       all-actions:
         patterns:
-          - "*"
-  - package-ecosystem: "npm"
-    directory: "/"
+          - '*'
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "04:00"
+      interval: 'weekly'
+      day: 'monday'
+      time: '04:00'
     labels:
-      - "dependencies"
-      - "javascript"
+      - 'dependencies'
+      - 'javascript'
     cooldown:
       default-days: 7
       semver-major-days: 14
@@ -32,7 +32,7 @@ updates:
     groups:
       npm-updates:
         patterns:
-          - "*"
+          - '*'
         update-types:
-          - "minor"
-          - "patch"
+          - 'minor'
+          - 'patch'

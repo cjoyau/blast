@@ -49,11 +49,9 @@ const ogImage = await getImage({ src: ogImageSrc });
       hreflang="x-default"
       href={new URL(getRelativeLocaleUrl(defaultLocale, relativePath), Astro.site)}
     />
-    {
-      locales.map((lang) => (
-        <link rel="alternate" hreflang={lang} href={new URL(getRelativeLocaleUrl(lang, relativePath), Astro.site)} />
-      ))
-    }
+    {locales.map((lang) => (
+      <link rel="alternate" hreflang={lang} href={new URL(getRelativeLocaleUrl(lang, relativePath), Astro.site)} />
+    ))}
     <meta name="generator" content={Astro.generator} />
     {noindex && <meta name="robots" content="noindex" />}
     <meta name="description" content={description} />

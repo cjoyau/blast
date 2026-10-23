@@ -11,33 +11,33 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 
 ## <img src="public/logo.svg" width="24" height="24" align="top" /> Key Features
 
-* **Built with Astro 7, Tailwind CSS v4 &amp; Alpine.js**
-* **7+ Pages**
-* **17+ Sections**
-* **Multi-language** support
-* **Static site generation** (SSG) optimized
-* **Content Security Policy** (CSP) enabled by default
-* **Automatic sha256 hashing** of inline scripts and styles
-* Clean &amp; Modern Design
-* Fully Responsive
-* Dark &amp; Light Mode
-* Fast &amp; Performant
-* Super Lightweight
-* Client Router
-* **Vitest** Unit Tests
-* **Prettier** Code Formatter
-* **Google Fonts**
-* **Remix Icons**
-* **Basin** Contact Form
-* **Turnstile** Spam Protection
+- **Built with Astro 7, Tailwind CSS v4 &amp; Alpine.js**
+- **7+ Pages**
+- **17+ Sections**
+- **Multi-language** support
+- **Static site generation** (SSG) optimized
+- **Content Security Policy** (CSP) enabled by default
+- **Automatic sha256 hashing** of inline scripts and styles
+- Clean &amp; Modern Design
+- Fully Responsive
+- Dark &amp; Light Mode
+- Fast &amp; Performant
+- Super Lightweight
+- Client Router
+- **Vitest** Unit Tests
+- **Prettier** Code Formatter
+- **Google Fonts**
+- **Remix Icons**
+- **Basin** Contact Form
+- **Turnstile** Spam Protection
 
 ## <img src="public/logo.svg" width="24" height="24" align="top" /> Getting Started
 
 ### Requirements
 
-* Basic knowledge of Astro, HTML and CSS.
-* Text editor (We recommend Visual Studio Code)
-* Node.js 22 or higher.
+- Basic knowledge of Astro, HTML and CSS.
+- Text editor (We recommend Visual Studio Code)
+- Node.js 22 or higher.
 
 ### Environment variables
 
@@ -47,6 +47,7 @@ Before you start, make sure to create a `.env` file in the root of your project 
 BASIN_FORM_ID=<your-form-id> ①
 TURNSTILE_SITEKEY=<your-sitekey> ②
 ```
+
 1. Your Basin Form ID. You can find it in your [Basin dashboard](https://usebasin.com/?via=cjoyau).
 2. Your Cloudflare Turnstile Site Key. You can find it in your Cloudflare dashboard.
 
@@ -55,7 +56,7 @@ TURNSTILE_SITEKEY=<your-sitekey> ②
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                            |
-|:--------------------------|:--------------------------------------------------|
+| :------------------------ | :------------------------------------------------ |
 | `npm install`             | Installs dependencies                             |
 | `npm run dev`             | Starts local dev server at `localhost:4321`       |
 | `npm run build`           | Check and build your production site to `./dist/` |
@@ -92,6 +93,7 @@ Inside the project, you’ll see the following folders and files:
 ├── 📄 tsconfig.json ⑮
 └── 📄 vitest.config.ts ⑯
 ```
+
 1. Project source code (components, pages, …)
 2. Any processed assets (images, svgs, …)
 3. Remix icons used as SVG components.
