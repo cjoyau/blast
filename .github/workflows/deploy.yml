@@ -25,7 +25,7 @@ jobs:
         #   build-cmd: pnpm run build # The command to run to build your site. Runs the package build script/task by default. (optional)
         env:
           # https://docs.usebasin.com/getting-started/quickstart/#step-2-get-your-form-endpoint
-          BASIN_FORM_ID: ''
+          FORM_ENDPOINT: 'https://usebasin.com/f/your-form-endpoint'
           # https://developers.cloudflare.com/turnstile/troubleshooting/testing/
           TURNSTILE_SITEKEY: '1x00000000000000000000AA'
           # PUBLIC_POKEAPI: 'https://pokeapi.co/api/v2' # Use single quotation marks for the variable value. (optional)

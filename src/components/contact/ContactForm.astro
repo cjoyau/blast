@@ -7,7 +7,7 @@ import { getLabels, defaultLocale } from '@i18n/utils';
 const labels = getLabels(Astro.currentLocale, 'contactForm');
 const currentLocale = Astro.currentLocale || defaultLocale;
 
-const basinFormId = import.meta.env.BASIN_FORM_ID;
+const formEndpoint = import.meta.env.FORM_ENDPOINT;
 const turnstileSiteKey = import.meta.env.TURNSTILE_SITEKEY;
 ---
 
@@ -28,7 +28,7 @@ const turnstileSiteKey = import.meta.env.TURNSTILE_SITEKEY;
       </div>
       <form
         x-ref="form"
-        action={`https://usebasin.com/f/${basinFormId}`}
+        action={formEndpoint}
         method="POST"
         enctype="multipart/form-data"
         class="mt-3"

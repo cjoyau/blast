@@ -3,7 +3,23 @@ import alpinejs from '@astrojs/alpinejs';
 import sitemap from '@astrojs/sitemap';
 import compress from '@playform/compress';
 import tailwindcss from '@tailwindcss/vite';
+import { loadEnv } from 'vite';
 import { defaultLocale, locales, prefixDefaultLocale } from '@i18n/utils';
+
+const { FORM_ENDPOINT, TURNSTILE_SITEKEY } = loadEnv(process.env.NODE_ENV, process.cwd(), '');
+
+if (!FORM_ENDPOINT || !TURNSTILE_SITEKEY) {
+  console.log(
+    '\x1b[33mPlease setup required environment variables. Here is a sample .env file:\x1b[0m\n\n' +
+      '\x1b[38;2;139;148;158m# https://docs.usebasin.com/getting-started/quickstart/#step-2-get-your-form-endpoint\x1b[0m\n' +
+      '\x1b[38;2;255;166;87mFORM_ENDPOINT\x1b[0m=\x1b[38;2;187;190;191mhttps://usebasin.com/f/your-form-endpoint\x1b[0m\n' +
+      '\x1b[38;2;139;148;158m# https://developers.cloudflare.com/turnstile/troubleshooting/testing/\x1b[0m\n' +
+      '\x1b[38;2;255;166;87mTURNSTILE_SITEKEY\x1b[0m=\x1b[38;2;187;190;191m1x00000000000000000000AA\x1b[0m\n'
+  );
+  process.exit(1);
+}
+
+const formEndpointOrigin = new URL(FORM_ENDPOINT).origin;
 
 // https://astro.build/config
 export default defineConfig({
@@ -77,8 +93,8 @@ export default defineConfig({
         "font-src 'self'",
         "object-src 'none'",
         "base-uri 'self'",
-        "form-action 'self' https://usebasin.com/",
-        "connect-src 'self' https://usebasin.com/",
+        `form-action 'self' ${formEndpointOrigin}/`,
+        `connect-src 'self' ${formEndpointOrigin}/`,
         "frame-src 'self' https://challenges.cloudflare.com/",
         'upgrade-insecure-requests',
       ],

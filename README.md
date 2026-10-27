@@ -16,22 +16,22 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 - **Built with Astro 7, Tailwind CSS v4 &amp; Alpine.js**
 - **7+ Pages**
 - **17+ Sections**
+- **Fully Responsive**
+- **Fast &amp; Performant**
 - **Multi-language** support
+- **Dark &amp; Light Mode**
+- **Clean &amp; Modern Design**
+- Super Lightweight
+- Client Router
 - **Static site generation** (SSG) optimized
 - **Content Security Policy** (CSP) enabled by default
 - **Automatic sha256 hashing** of inline scripts and styles
-- Clean &amp; Modern Design
-- Fully Responsive
-- Dark &amp; Light Mode
-- Fast &amp; Performant
-- Super Lightweight
-- Client Router
+- **Form Endpoint** agnostic
+- **Turnstile** Spam Protection
 - **Vitest** Unit Tests
 - **Prettier** Code Formatter
 - **Google Fonts**
 - **Remix Icons**
-- **Basin** Contact Form
-- **Turnstile** Spam Protection
 
 ## <img src="public/logo.svg" width="24" height="24" align="top" /> Getting Started
 
@@ -46,11 +46,11 @@ Production-ready theme specially designed for Business, Marketing, SaaS and Star
 Before you start, make sure to create a `.env` file in the root of your project and add the following environment variables:
 
 ```
-BASIN_FORM_ID=<your-form-id> ①
+FORM_ENDPOINT=<your-form-endpoint> ①
 TURNSTILE_SITEKEY=<your-sitekey> ②
 ```
 
-1. Your Basin Form ID. You can find it in your [Basin dashboard](https://usebasin.com/?via=cjoyau).
+1. Your Form Endpoint. We recommend [Basin](https://usebasin.com/?via=cjoyau) but you're free to choose another.
 2. Your Cloudflare Turnstile Site Key. You can find it in your Cloudflare dashboard.
 
 ### Commands

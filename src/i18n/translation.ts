@@ -236,7 +236,7 @@ export interface Translation {
     dataRecipientsHeading: string;
     dataRecipientsIntro: string;
     githubRecipient: string;
-    basinRecipient: string;
+    contactFormRecipient: string;
     cloudflareRecipient: string;
     dataTransfersText: string;
     retentionPeriodHeading: string;
