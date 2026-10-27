@@ -363,7 +363,7 @@ export const fr: Translation = {
     dataRecipientsHeading: '3. Destinataires des données (sous-traitants)',
     dataRecipientsIntro: 'Vos données sont transmises aux prestataires suivants, nécessaires au bon fonctionnement du site :',
     githubRecipient: "<strong>GitHub Inc.</strong> : Pour l'hébergement du site (GitHub Pages).",
-    basinRecipient: '<strong>Basin (UseBasin.com)</strong> : Pour la réception et la gestion des messages envoyés via le formulaire de contact.',
+    contactFormRecipient: '<strong>Basin (UseBasin.com)</strong> : Pour la réception et la gestion des messages envoyés via le formulaire de contact.',
     cloudflareRecipient: '<strong>Cloudflare, Inc.</strong> : Pour le service Turnstile.',
     dataTransfersText: "Certains de ces prestataires sont situés hors de l'Union Européenne (notamment aux États-Unis et au Canada). Nous nous assurons que ces transferts sont encadrés par des clauses contractuelles types ou le cadre de protection des données (Data Privacy Framework).",
     retentionPeriodHeading: '4. Durée de conservation',
