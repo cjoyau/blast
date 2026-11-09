@@ -21,10 +21,10 @@
     "@astrojs/alpinejs": "1.0.0",
     "@astrojs/sitemap": "3.7.4",
     "@playform/compress": "0.2.5",
-    "@tailwindcss/vite": "4.3.3",
+    "@tailwindcss/vite": "4.3.4",
     "alpinejs": "3.17.5",
-    "astro": "7.4.4",
-    "tailwindcss": "4.3.3"
+    "astro": "7.4.7",
+    "tailwindcss": "4.3.4"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.12",
