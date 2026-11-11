@@ -84,7 +84,7 @@ export default defineConfig({
       styleDirective: {
         resources: ["'self'"],
         hashes: [
-          'sha256-/fWDvP/zU3HvBkNs4SJCgtfIW+buR1Is+LtIxjWEFpw=', // All pages
+          'sha256-uHL2N5e1hOQ00FI3s/ar1eyYHDQlvUm+anJHYE6mBUc=', // All pages
         ],
       },
       directives: [
