@@ -2,11 +2,11 @@ import { type Translation } from '../translation';
 
 export const fr: Translation = {
   '404': {
-    description: "Page non trouvée. Veuillez vérifier l'URL dans la barre d'adresse et réessayer.",
+    description: 'Page non trouvée. Veuillez vérifier l’URL dans la barre d’adresse et réessayer.',
     title: 'Page non trouvée · Blast',
     heading: 'Page non trouvée',
-    message: "Veuillez vérifier l'URL dans la barre d'adresse et réessayer.",
-    back: "Retour à l'accueil",
+    message: 'Veuillez vérifier l’URL dans la barre d’adresse et réessayer.',
+    back: 'Retour à l’accueil',
   },
   about: {
     description: 'Découvrez notre histoire, nos valeurs, notre mission et bien plus encore. Nous sommes un groupe de personnes partageant les mêmes valeurs.',
@@ -21,7 +21,7 @@ export const fr: Translation = {
     p1: 'Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut.',
     p2: 'Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.',
     p3: 'Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.',
-    aboutImgAlt: "Illustration d'une personne concevant une architecture de système d'information.",
+    aboutImgAlt: 'Illustration d’une personne concevant une architecture de système d’information.',
     stats: [
       {
         name: 'Expérience de notre équipe',
@@ -68,7 +68,7 @@ export const fr: Translation = {
       [
         {
           ref: '03',
-          name: "Esprit d'équipe",
+          name: 'Esprit d’équipe',
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         },
         {
@@ -98,12 +98,12 @@ export const fr: Translation = {
     success: {
       title: 'Merci pour votre message !',
       desc: 'Nous vous répondrons dans les plus brefs délais.',
-      back: "Retour à l'accueil",
+      back: 'Retour à l’accueil',
     },
     error: {
-      title: "Oops ! L'envoi a échoué.",
+      title: 'Oops ! L’envoi a échoué.',
       desc: 'Veuillez réessayer plus tard.',
-      back: "Retour à l'accueil",
+      back: 'Retour à l’accueil',
     },
   },
   contactInfo: {
@@ -113,7 +113,7 @@ export const fr: Translation = {
     github: 'github.com/cjoyau/blast',
   },
   home: {
-    description: "Blast est un thème prêt à l'emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.",
+    description: 'Blast est un thème prêt à l’emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.',
     title: 'Blast · Blue astro theme',
   },
   homeAbout: {
@@ -134,7 +134,7 @@ export const fr: Translation = {
   },
   homeCta: {
     title: 'Travaillons ensemble',
-    description: "Nous serions ravis d'en apprendre plus sur vous, et ce que nous pouvons construire ensemble.",
+    description: 'Nous serions ravis d’en apprendre plus sur vous, et ce que nous pouvons construire ensemble.',
     contact: 'Nous contacter',
     pricing: 'Nos tarifs',
   },
@@ -143,7 +143,7 @@ export const fr: Translation = {
     expertises: [
       {
         id: 'expertise-1',
-        name: "Plateformes de gestion de l'expérience digitale",
+        name: 'Plateformes de gestion de l’expérience digitale',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
       },
       {
@@ -158,7 +158,7 @@ export const fr: Translation = {
       },
       {
         id: 'expertise-4',
-        name: "Outils d'automatisation de construction et de test",
+        name: 'Outils d’automatisation de construction et de test',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
       },
       {
@@ -176,8 +176,8 @@ export const fr: Translation = {
   homeHero: {
     title: 'Blue astro theme',
     visibleLetters: [0, 1, 5, 6, 11],
-    description: "Thème prêt à l'emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.",
-    heroImgAlt: "Illustration de personnes collaborant pour concevoir quelque chose d'incroyable.",
+    description: 'Thème prêt à l’emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.',
+    heroImgAlt: 'Illustration de personnes collaborant pour concevoir quelque chose d’incroyable.',
   },
   homeServices: {
     title: 'Services',
@@ -216,7 +216,7 @@ export const fr: Translation = {
       privacy: 'Confidentialité',
       styleguide: 'Guide de style',
     },
-    description: "Thème prêt à l'emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.",
+    description: 'Thème prêt à l’emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.',
     copyright: '© 2026-Présent · Blast · Blue astro theme',
   },
   layoutHeader: {
@@ -229,7 +229,7 @@ export const fr: Translation = {
     about: 'A propos',
     pricing: 'Tarifs',
     contact: 'Contact',
-    description: '<strong>Blast</strong> est un thème premium conçu spécialement pour les sites web de business, marketing, SaaS et startups.',
+    description: '<strong>Blast</strong> est un thème prêt à l’emploi conçu spécialement pour les sites web de business, marketing, SaaS et startups.',
   },
   pricing: {
     description: 'En savoir plus sur nos tarifs et les prestations incluses pour répondre à vos besoins.',
@@ -245,7 +245,7 @@ export const fr: Translation = {
     questions: [
       {
         id: 'faq-1',
-        title: "Comment savoir quelle formule d'abonnement est la plus adaptée à mes besoins ?",
+        title: 'Comment savoir quelle formule d’abonnement est la plus adaptée à mes besoins ?',
         answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.',
       },
       {
@@ -319,24 +319,24 @@ export const fr: Translation = {
     publisherText: 'Le présent site internet est édité par <strong>[Nom de la société]</strong>, [Forme juridique] au capital de [Capital social] euros, immatriculée au Registre du Commerce et des Sociétés de [Ville] sous le numéro [Numéro RCS] et dont le siège social est situé [Adresse complète]. Le directeur de la publication est [Nom du directeur]. Pour toute demande, vous pouvez nous joindre via notre ',
     contactFormLink: 'formulaire de contact.',
     hostingHeading: '2. Hébergement',
-    hostingText: "Le site est hébergé par la société <strong>GitHub Inc.</strong>, via le service <strong>GitHub Pages</strong>.<br />Siège social de l'hébergeur : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.",
+    hostingText: 'Le site est hébergé par la société <strong>GitHub Inc.</strong>, via le service <strong>GitHub Pages</strong>.<br />Siège social de l’hébergeur : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.',
     intellectualPropertyHeading: '3. Propriété intellectuelle',
     openSourceCreditsText: 'Ce site est basé sur le thème libre et open-source Blast, distribué sous licence MIT.',
     licenseLink: 'Les termes de cette licence peuvent être consultés ici.',
     openSourceCreditsEnd: ' Nous tenons à remercier les contributeurs de ce projet pour leur travail.',
-    contentOwnershipText: "L'ensemble du contenu du présent site internet dérivé du projet Blast (textes, images, vidéos, logos, icônes, etc.) est la propriété exclusive de la société <strong>[Nom de la société]</strong> ou de ses partenaires, et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle.",
+    contentOwnershipText: 'L’ensemble du contenu du présent site internet dérivé du projet Blast (textes, images, vidéos, logos, icônes, etc.) est la propriété exclusive de la société <strong>[Nom de la société]</strong> ou de ses partenaires, et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle.',
     reproductionProhibitedText: 'Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de [Nom de la société].',
     personalDataHeading: '4. Protection des données personnelles',
     personalDataIntro: 'Conformément au Règlement Général sur la Protection des Données (RGPD), nous traitons vos données personnelles dans les conditions suivantes :',
-    dataCollectionItem: "<strong>Collecte</strong> : Nous collectons vos données d'identification (nom, prénom) et de contact (email) via notre formulaire de contact.",
+    dataCollectionItem: '<strong>Collecte</strong> : Nous collectons vos données d’identification (nom, prénom) et de contact (email) via notre formulaire de contact.',
     dataProcessorsItem: '<strong>Sous-traitants</strong> : Les messages sont gérés via le service <strong>Basin</strong> (UseBasin.com). La sécurité du formulaire est assurée par <strong>Cloudflare Turnstile</strong>.',
-    userRightsItem: "<strong>Vos droits</strong> : Vous disposez d'un droit d'accès, de rectification, d'effacement et d'opposition sur vos données.",
+    userRightsItem: '<strong>Vos droits</strong> : Vous disposez d’un droit d’accès, de rectification, d’effacement et d’opposition sur vos données.',
     contactRightsText: '<strong>Contact</strong> : Ces droits peuvent être exercés directement via notre ',
-    cnilComplaintItem: "<strong>Réclamation</strong> : Vous avez le droit d'introduire une réclamation auprès de la CNIL (www.cnil.fr).",
+    cnilComplaintItem: '<strong>Réclamation</strong> : Vous avez le droit d’introduire une réclamation auprès de la CNIL (www.cnil.fr).',
     privacyPolicyPromptText: 'Pour plus de détails, nous vous invitons à consulter notre ',
     privacyPolicyLink: 'politique de confidentialité.',
     cookiesHeading: '5. Cookies',
-    cookiesText: "Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. La sécurité du formulaire est assurée par le service Cloudflare Turnstile. Aucun cookie de publicité ciblée n'est déposé sans votre consentement.",
+    cookiesText: 'Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. La sécurité du formulaire est assurée par le service Cloudflare Turnstile. Aucun cookie de publicité ciblée n’est déposé sans votre consentement.',
   },
   privacy: {
     description: 'Notre politique de confidentialité vous aidera à comprendre quelles informations sont collectées et comment elles sont utilisées.',
@@ -350,39 +350,39 @@ export const fr: Translation = {
     collectedDataHeading: '2. Données collectées et finalités',
     contactFormHeading: 'A. Formulaire de contact (via Basin)',
     contactFormIntro: 'Lorsque vous remplissez notre formulaire de contact, nous collectons les données suivantes :',
-    identificationData: "<strong>Données d'identification</strong> : Nom, prénom.",
+    identificationData: '<strong>Données d’identification</strong> : Nom, prénom.',
     contactData: '<strong>Données de contact</strong> : Adresse email.',
     messageContent: '<strong>Contenu</strong> : Sujet et message envoyé.',
-    contactFormPurpose: "<strong>Finalité</strong> : Répondre à vos demandes d'informations ou de devis.<br /><strong>Base légale</strong> : Votre consentement (exprimé en cliquant sur le bouton d'envoi).",
+    contactFormPurpose: '<strong>Finalité</strong> : Répondre à vos demandes d’informations ou de devis.<br /><strong>Base légale</strong> : Votre consentement (exprimé en cliquant sur le bouton d’envoi).',
     securityHeading: 'B. Sécurité et lutte contre le spam (via Cloudflare Turnstile)',
     securityIntro: 'Nous utilisons le service <strong>Cloudflare Turnstile</strong> pour protéger notre site contre les robots et les spams. Ce service collecte des informations techniques (configuration du navigateur) pour vérifier le comportement humain sans utiliser de cookies de traçage.',
     securityPurpose: '<strong>Finalité</strong> : Sécuriser le site et prévenir les abus.<br /><strong>Base légale</strong> : Intérêt légitime de la société à protéger son outil de travail.',
     hostingHeading: 'C. Hébergement (via GitHub Pages)',
     hostingIntro: 'Le site est hébergé sur les serveurs de la société <strong>GitHub Inc.</strong>, via le service <strong>GitHub Pages</strong>.',
-    hostingLogsText: "À des fins de maintenance et de sécurité, GitHub peut collecter des données de connexion (logs), telles que votre adresse IP, la date et l'heure de consultation.",
+    hostingLogsText: 'À des fins de maintenance et de sécurité, GitHub peut collecter des données de connexion (logs), telles que votre adresse IP, la date et l’heure de consultation.',
     dataRecipientsHeading: '3. Destinataires des données (sous-traitants)',
     dataRecipientsIntro: 'Vos données sont transmises aux prestataires suivants, nécessaires au bon fonctionnement du site :',
-    githubRecipient: "<strong>GitHub Inc.</strong> : Pour l'hébergement du site (GitHub Pages).",
+    githubRecipient: '<strong>GitHub Inc.</strong> : Pour l’hébergement du site (GitHub Pages).',
     contactFormRecipient: '<strong>Basin (UseBasin.com)</strong> : Pour la réception et la gestion des messages envoyés via le formulaire de contact.',
     cloudflareRecipient: '<strong>Cloudflare, Inc.</strong> : Pour le service Turnstile.',
-    dataTransfersText: "Certains de ces prestataires sont situés hors de l'Union Européenne (notamment aux États-Unis et au Canada). Nous nous assurons que ces transferts sont encadrés par des clauses contractuelles types ou le cadre de protection des données (Data Privacy Framework).",
+    dataTransfersText: 'Certains de ces prestataires sont situés hors de l’Union Européenne (notamment aux États-Unis et au Canada). Nous nous assurons que ces transferts sont encadrés par des clauses contractuelles types ou le cadre de protection des données (Data Privacy Framework).',
     retentionPeriodHeading: '4. Durée de conservation',
     contactRequestsRetention: '<strong>Demandes de contact</strong> : Les données sont conservées le temps nécessaire au traitement de votre demande, puis supprimées ou archivées pendant une durée maximale de <strong>3 ans</strong> après le dernier contact.',
-    technicalLogsRetention: "<strong>Logs techniques</strong> : Généralement conservés pour une durée n'excédant pas <strong>12 mois</strong>.",
+    technicalLogsRetention: '<strong>Logs techniques</strong> : Généralement conservés pour une durée n’excédant pas <strong>12 mois</strong>.',
     userRightsHeading: '5. Vos droits',
     userRightsIntro: 'Conformément au RGPD, vous disposez des droits suivants sur vos données :',
-    rightOfAccess: "<strong>Droit d'accès</strong> : Savoir quelles données nous détenons.",
+    rightOfAccess: '<strong>Droit d’accès</strong> : Savoir quelles données nous détenons.',
     rightOfRectification: '<strong>Droit de rectification</strong> : Modifier des données inexactes.',
-    rightToErasure: "<strong>Droit à l'effacement</strong> : Demander la suppression de vos données.",
-    rightToObjection: "<strong>Droit d'opposition</strong> : Vous opposer au traitement pour des motifs légitimes.",
+    rightToErasure: '<strong>Droit à l’effacement</strong> : Demander la suppression de vos données.',
+    rightToObjection: '<strong>Droit d’opposition</strong> : Vous opposer au traitement pour des motifs légitimes.',
     rightToPortability: '<strong>Droit à la portabilité</strong> : Récupérer vos données dans un format structuré.',
     exerciseRightsPrompt: 'Pour exercer ces droits, vous pouvez nous joindre via notre ',
     cnilComplaintText: ' Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la <strong>CNIL</strong> (www.cnil.fr).',
     cookiesHeading: '6. Cookies',
-    cookiesText: "Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. La sécurité du formulaire est assurée par le service Cloudflare Turnstile. Nous n'utilisons pas de cookies de publicité ciblée sans votre consentement.",
+    cookiesText: 'Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. La sécurité du formulaire est assurée par le service Cloudflare Turnstile. Nous n’utilisons pas de cookies de publicité ciblée sans votre consentement.',
   },
   styleguide: {
-    description: "Notre guide de style présente l'identité visuelle de notre site et notre société.",
+    description: 'Notre guide de style présente l’identité visuelle de notre site et notre société.',
     title: 'Guide de style · Blast',
     heading: 'Guide de style',
     logoDesc: 'Logo',

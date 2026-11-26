@@ -50,7 +50,7 @@ FORM_ENDPOINT=<your-form-endpoint> ①
 TURNSTILE_SITEKEY=<your-sitekey> ②
 ```
 
-1. Your Form Endpoint. We recommend [Basin](https://usebasin.com/?via=cjoyau) but you're free to choose another.
+1. Your Form Endpoint. We recommend [Basin](https://usebasin.com/?via=cjoyau) but you’re free to choose another.
 2. Your Cloudflare Turnstile Site Key. You can find it in your Cloudflare dashboard.
 
 ### Commands

@@ -84,7 +84,7 @@ export const en: Translation = {
     title: 'Contact · Blast',
   },
   contactForm: {
-    title: "Let's talk",
+    title: 'Let’s talk',
     description: 'A question or an idea? Send us a message, we are listening.',
     responseTime: 'We usually respond within 48 hours.',
     policyText: 'By sending the form, you agree that your data will be processed according to our ',
@@ -133,7 +133,7 @@ export const en: Translation = {
     ],
   },
   homeCta: {
-    title: "Let's work together",
+    title: 'Let’s work together',
     description: 'We would love to learn more about you and what we can build together.',
     contact: 'Contact us',
     pricing: 'Our pricing',
@@ -229,7 +229,7 @@ export const en: Translation = {
     about: 'About',
     pricing: 'Pricing',
     contact: 'Contact',
-    description: '<strong>Blast</strong> is a premium theme specially designed for Business, Marketing, SaaS and Startup websites.',
+    description: '<strong>Blast</strong> is a production-ready theme specially designed for Business, Marketing, SaaS and Startup websites.',
   },
   pricing: {
     description: 'Learn more about our pricing and included services to meet your needs.',
@@ -319,7 +319,7 @@ export const en: Translation = {
     publisherText: 'This website is published by <strong>[Company Name]</strong>, a [Company Type] with a capital of [Share Capital] euros, registered with the [City] Trade and Companies Register under number [RCS Number] and whose head office is located at [Full Address]. The publication director is [Director Name]. For any request, you can contact us via our ',
     contactFormLink: 'contact form.',
     hostingHeading: '2. Hosting',
-    hostingText: "The site is hosted by <strong>GitHub Inc.</strong>, via the <strong>GitHub Pages</strong> service.<br />Host's head office: 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.",
+    hostingText: 'The site is hosted by <strong>GitHub Inc.</strong>, via the <strong>GitHub Pages</strong> service.<br />Host’s head office: 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.',
     intellectualPropertyHeading: '3. Intellectual property',
     openSourceCreditsText: 'This site is based on the free and open-source Blast theme, distributed under the MIT License.',
     licenseLink: 'The terms of this license can be viewed here.',
