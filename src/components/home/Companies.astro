@@ -46,7 +46,7 @@ const getViewBox = (id: string) => {
           {companies.map((company) => <div
             class="bg-surface flex h-36 w-48 shrink-0 flex-col items-center justify-center gap-4 rounded-3xl p-6 transition-transform hover:scale-105"
           >
-            <svg class="icon-primary h-12 w-auto max-w-36" viewBox={getViewBox(company.id)} aria-hidden="true">
+            <svg class="text-bright h-12 w-auto max-w-36" viewBox={getViewBox(company.id)} aria-hidden="true">
               <use href={`#icon-${company.id}`} />
             </svg>
             <span class="text-muted text-center text-lg leading-tight">{company.name}</span>

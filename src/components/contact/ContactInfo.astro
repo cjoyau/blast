@@ -15,7 +15,7 @@ const labels = getLabels(Astro.currentLocale, 'contactInfo');
       <div class="bg-surface rounded-3xl px-6 py-8">
         <dt class="sr-only">{labels.address}</dt>
         <dd class="flex h-full flex-col justify-between gap-12">
-          <MapPinIcon class="icon-primary" aria-hidden="true" />
+          <MapPinIcon class="text-bright h-6 w-6" aria-hidden="true" />
           <div class="text-base font-medium">
             <p>{labels.location}</p>
           </div>
@@ -26,7 +26,7 @@ const labels = getLabels(Astro.currentLocale, 'contactInfo');
       <div class="bg-surface rounded-3xl px-6 py-8">
         <dt class="sr-only">LinkedIn</dt>
         <dd class="flex h-full flex-col justify-between gap-12">
-          <LinkedInIcon class="icon-primary" aria-hidden="true" />
+          <LinkedInIcon class="text-bright h-6 w-6" aria-hidden="true" />
           <p class="text-base font-medium">
             <a href={`https://${labels.linkedin}`} class="text-link" target="_blank" rel="noopener noreferrer">
               {labels.linkedin}
@@ -40,7 +40,7 @@ const labels = getLabels(Astro.currentLocale, 'contactInfo');
       <div class="bg-surface rounded-3xl px-6 py-8">
         <dt class="sr-only">GitHub</dt>
         <dd class="flex h-full flex-col justify-between gap-12">
-          <GitHubIcon class="icon-primary" aria-hidden="true" />
+          <GitHubIcon class="text-bright h-6 w-6" aria-hidden="true" />
           <p class="text-base font-medium">
             <a href={`https://${labels.github}`} class="text-link" target="_blank" rel="noopener noreferrer">
               {labels.github}

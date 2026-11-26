@@ -25,7 +25,7 @@ const { id, index } = Astro.props;
         <slot name="header" />
         <span class="ml-6 flex h-7 items-center">
           <ArrowDownIcon
-            class="icon-primary rotate-0 transform transition duration-200 ease-in-out"
+            class="text-bright h-6 w-6 rotate-0 transform transition duration-200 ease-in-out"
             x-bind:class="{ '-rotate-180': isOpen(), 'rotate-0': !isOpen() }"
             aria-hidden="true"
           />
